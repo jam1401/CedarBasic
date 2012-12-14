@@ -18,6 +18,15 @@
 		84409AF61677A20200F40D6D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84409AF51677A20200F40D6D /* Default-568h@2x.png */; };
 		84409AF91677A20200F40D6D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84409AF71677A20200F40D6D /* MainStoryboard.storyboard */; };
 		84409AFC1677A20200F40D6D /* CedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84409AFB1677A20200F40D6D /* CedViewController.m */; };
+		84E92A671677A30500AEBB8B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84409ADF1677A20200F40D6D /* UIKit.framework */; };
+		84E92A681677A30500AEBB8B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84409AE11677A20200F40D6D /* Foundation.framework */; };
+		84E92A691677A30500AEBB8B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84409AE31677A20200F40D6D /* CoreGraphics.framework */; };
+		84E92A6F1677A30500AEBB8B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84E92A6D1677A30500AEBB8B /* InfoPlist.strings */; };
+		84E92A711677A30500AEBB8B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E92A701677A30500AEBB8B /* main.m */; };
+		84E92A741677A30600AEBB8B /* Cedar-iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E92A731677A30600AEBB8B /* Cedar-iOS.framework */; };
+		84E92ABB1677A57300AEBB8B /* CedAppDelegateSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 84E92ABA1677A57300AEBB8B /* CedAppDelegateSpec.mm */; };
+		84E92ABE1677AA4100AEBB8B /* CedAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84409AEF1677A20200F40D6D /* CedAppDelegate.m */; };
+		84E92ABF1677B68500AEBB8B /* CedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84409AFB1677A20200F40D6D /* CedViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +46,13 @@
 		84409AF81677A20200F40D6D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		84409AFA1677A20200F40D6D /* CedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CedViewController.h; sourceTree = "<group>"; };
 		84409AFB1677A20200F40D6D /* CedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CedViewController.m; sourceTree = "<group>"; };
+		84E92A651677A30500AEBB8B /* Specs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Specs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84E92A6C1677A30500AEBB8B /* Specs-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Specs-Info.plist"; sourceTree = "<group>"; };
+		84E92A6E1677A30500AEBB8B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84E92A701677A30500AEBB8B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84E92A721677A30500AEBB8B /* Specs-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Specs-Prefix.pch"; sourceTree = "<group>"; };
+		84E92A731677A30600AEBB8B /* Cedar-iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Cedar-iOS.framework"; path = "Frameworks/Cedar-iOS.framework"; sourceTree = "<group>"; };
+		84E92ABA1677A57300AEBB8B /* CedAppDelegateSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CedAppDelegateSpec.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +66,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		84E92A621677A30500AEBB8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E92A671677A30500AEBB8B /* UIKit.framework in Frameworks */,
+				84E92A681677A30500AEBB8B /* Foundation.framework in Frameworks */,
+				84E92A691677A30500AEBB8B /* CoreGraphics.framework in Frameworks */,
+				84E92A741677A30600AEBB8B /* Cedar-iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -57,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				84409AE51677A20200F40D6D /* CedarBasic */,
+				84E92A6A1677A30500AEBB8B /* Specs */,
 				84409ADE1677A20200F40D6D /* Frameworks */,
 				84409ADC1677A20200F40D6D /* Products */,
 			);
@@ -66,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				84409ADB1677A20200F40D6D /* CedarBasic.app */,
+				84E92A651677A30500AEBB8B /* Specs.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,11 +112,9 @@
 		84409AE51677A20200F40D6D /* CedarBasic */ = {
 			isa = PBXGroup;
 			children = (
-				84409AEE1677A20200F40D6D /* CedAppDelegate.h */,
-				84409AEF1677A20200F40D6D /* CedAppDelegate.m */,
-				84409AF71677A20200F40D6D /* MainStoryboard.storyboard */,
-				84409AFA1677A20200F40D6D /* CedViewController.h */,
-				84409AFB1677A20200F40D6D /* CedViewController.m */,
+				84E92AC11677B78A00AEBB8B /* AppDelegate */,
+				84E92AC31677B7B600AEBB8B /* UI */,
+				84E92AC51677B7CE00AEBB8B /* Controllers */,
 				84409AE61677A20200F40D6D /* Supporting Files */,
 			);
 			path = CedarBasic;
@@ -105,6 +132,61 @@
 				84409AF51677A20200F40D6D /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84E92A6A1677A30500AEBB8B /* Specs */ = {
+			isa = PBXGroup;
+			children = (
+				84E92A731677A30600AEBB8B /* Cedar-iOS.framework */,
+				84E92A6B1677A30500AEBB8B /* Supporting Files */,
+				84E92AC21677B79C00AEBB8B /* AppDelegate */,
+			);
+			path = Specs;
+			sourceTree = "<group>";
+		};
+		84E92A6B1677A30500AEBB8B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84E92A6C1677A30500AEBB8B /* Specs-Info.plist */,
+				84E92A6D1677A30500AEBB8B /* InfoPlist.strings */,
+				84E92A701677A30500AEBB8B /* main.m */,
+				84E92A721677A30500AEBB8B /* Specs-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84E92AC11677B78A00AEBB8B /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				84409AEE1677A20200F40D6D /* CedAppDelegate.h */,
+				84409AEF1677A20200F40D6D /* CedAppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		84E92AC21677B79C00AEBB8B /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				84E92ABA1677A57300AEBB8B /* CedAppDelegateSpec.mm */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		84E92AC31677B7B600AEBB8B /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				84409AF71677A20200F40D6D /* MainStoryboard.storyboard */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		84E92AC51677B7CE00AEBB8B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				84409AFA1677A20200F40D6D /* CedViewController.h */,
+				84409AFB1677A20200F40D6D /* CedViewController.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +207,23 @@
 			name = CedarBasic;
 			productName = CedarBasic;
 			productReference = 84409ADB1677A20200F40D6D /* CedarBasic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84E92A641677A30500AEBB8B /* Specs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84E92A791677A30600AEBB8B /* Build configuration list for PBXNativeTarget "Specs" */;
+			buildPhases = (
+				84E92A611677A30500AEBB8B /* Sources */,
+				84E92A621677A30500AEBB8B /* Frameworks */,
+				84E92A631677A30500AEBB8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Specs;
+			productName = Specs;
+			productReference = 84E92A651677A30500AEBB8B /* Specs.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -150,6 +249,7 @@
 			projectRoot = "";
 			targets = (
 				84409ADA1677A20200F40D6D /* CedarBasic */,
+				84E92A641677A30500AEBB8B /* Specs */,
 			);
 		};
 /* End PBXProject section */
@@ -167,6 +267,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		84E92A631677A30500AEBB8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E92A6F1677A30500AEBB8B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -177,6 +285,17 @@
 				84409AEC1677A20200F40D6D /* main.m in Sources */,
 				84409AF01677A20200F40D6D /* CedAppDelegate.m in Sources */,
 				84409AFC1677A20200F40D6D /* CedViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E92A611677A30500AEBB8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E92ABF1677B68500AEBB8B /* CedViewController.m in Sources */,
+				84E92ABE1677AA4100AEBB8B /* CedAppDelegate.m in Sources */,
+				84E92A711677A30500AEBB8B /* main.m in Sources */,
+				84E92ABB1677A57300AEBB8B /* CedAppDelegateSpec.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,6 +316,14 @@
 				84409AF81677A20200F40D6D /* en */,
 			);
 			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		84E92A6D1677A30500AEBB8B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84E92A6E1677A30500AEBB8B /* en */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -274,6 +401,49 @@
 			};
 			name = Release;
 		};
+		84E92A771677A30600AEBB8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Specs/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Specs/Specs-Prefix.pch";
+				INFOPLIST_FILE = "Specs/Specs-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		84E92A781677A30600AEBB8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Specs/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Specs/Specs-Prefix.pch";
+				INFOPLIST_FILE = "Specs/Specs-Info.plist";
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -291,6 +461,15 @@
 			buildConfigurations = (
 				84409B001677A20200F40D6D /* Debug */,
 				84409B011677A20200F40D6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84E92A791677A30600AEBB8B /* Build configuration list for PBXNativeTarget "Specs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E92A771677A30600AEBB8B /* Debug */,
+				84E92A781677A30600AEBB8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
